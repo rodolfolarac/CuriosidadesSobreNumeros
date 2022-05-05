@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-size: 100%;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(180deg, #b3d0da, #29738b);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    height: 450px;
+    width: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    background-color: rgba(41, 115, 139, 0.6);
+    border-radius: 90px;
+}
+
+
+.container h1{
+    font-size: 2rem;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 50px;
+}
+
+.text-number {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.text-number input {
+    border: none;
+    border-radius: 15px;
+    text-align: center;
+    background-color: #b3d0da;
+    padding: 5px;
+}
+
+.text-number button {
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgb(16, 71, 90);
+    color: rgba(255, 255, 255,0.5);
+}
+
+.text-number button:hover {
+    background-color: rgb(16, 55, 68);
+    color: rgba(255, 255, 255,0.8);
+}
+
+
+.number__info {
+    height: 150px;
+    width: 300px;
+    border-radius: 9px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 35px;
+    text-align: center;
+    background-color: #b3d0da;
+}
+
+.alert {
+    background-color: rgba(255, 0, 0, 0.4);
+}
